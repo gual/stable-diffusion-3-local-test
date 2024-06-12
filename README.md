@@ -67,7 +67,7 @@ Stable Diffusion 3 models and workflows are available on [Stable Assistant](http
 - **StableSwarmUI:** https://github.com/Stability-AI/StableSwarmUI
 - **Tech report:** https://stability.ai/news/stable-diffusion-3-research-paper
 - **Demo:** https://huggingface.co/spaces/stabilityai/stable-diffusion-3-medium
-- **Diffusers support**": https://huggingface.co/stabilityai/stable-diffusion-3-medium-diffusers
+- **Diffusers support:** https://huggingface.co/stabilityai/stable-diffusion-3-medium-diffusers
 
 
 ## Training Dataset
