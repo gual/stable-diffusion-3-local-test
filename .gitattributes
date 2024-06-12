@@ -1,0 +1,1 @@
+sd3_medium_incl_clips_t5xxlfp16.safetensors filter=lfs diff=lfs merge=lfs -text
