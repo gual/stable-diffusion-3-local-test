@@ -66,6 +66,7 @@ Stable Diffusion 3 models and workflows are available on [Stable Assistant](http
 - **StableSwarmUI:** https://github.com/Stability-AI/StableSwarmUI
 - **Tech report:** https://stability.ai/news/stable-diffusion-3-research-paper
 - **Demo:** https://huggingface.co/spaces/stabilityai/stable-diffusion-3-medium
+- **Diffusers support**": https://huggingface.co/stabilityai/stable-diffusion-3-medium-diffusers
 
 
 ## Training Dataset
@@ -101,6 +102,28 @@ We have prepared three packaging variants of the SD3 Medium model, each equipped
 * `sd3_medium_incl_clips.safetensors` includes all necessary weights except for the T5XXL text encoder. It requires minimal resources, but the model's performance will differ without the T5XXL text encoder.
 * The `text_encoders` folder contains three text encoders and their original model card links for user convenience. All components within the text_encoders folder (and their equivalents embedded in other packings)  are subject to their respective original licenses.
 * The `example_workfows` folder contains example comfy workflows.
+
+## Using with Diffusers
+
+Make sure you upgrade to the latest version of diffusers: pip install -U diffusers. And then you can run:
+
+```python
+import torch
+from diffusers import StableDiffusion3Pipeline
+
+pipe = StableDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium-diffusers", torch_dtype=torch.float16)
+pipe = pipe.to("cuda")
+
+image = pipe(
+    "A cat holding a sign that says hello world",
+    negative_prompt="",
+    num_inference_steps=28,
+    guidance_scale=7.0,
+).images[0]
+image
+```
+
+Refer to [the documentation](https://huggingface.co/docs/diffusers/main/en/api/pipelines/stable_diffusion_3) for more details on optimization and image-to-image support.
 
 ## Uses
 
