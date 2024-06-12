@@ -33,7 +33,7 @@ pipeline_tag: text-to-image
 
 ![mmdit](mmdit.png)
 
-[Stable Diffusion 3 Medium](stability.ai/news/stable-diffusion-3-medium) is a Multimodal Diffusion Transformer (MMDiT) text-to-image model that features greatly improved performance in image quality, typography, complex prompt understanding, and resource-efficiency.
+[Stable Diffusion 3 Medium](https://stability.ai/news/stable-diffusion-3-medium) is a Multimodal Diffusion Transformer (MMDiT) text-to-image model that features greatly improved performance in image quality, typography, complex prompt understanding, and resource-efficiency.
 
 For more technical details, please refer to the [Research paper](https://stability.ai/news/stable-diffusion-3-research-paper).
 
@@ -125,7 +125,7 @@ image = pipe(
 image
 ```
 
-Refer to [the documentation](https://huggingface.co/docs/diffusers/main/en/api/pipelines/stable_diffusion_3) for more details on optimization and image-to-image support.
+Refer to [the documentation](https://huggingface.co/docs/diffusers/main/en/api/pipelines/stable_diffusion/stable_diffusion_3) for more details on optimization and image-to-image support.
 
 ## Uses
 
