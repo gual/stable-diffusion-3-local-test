@@ -92,13 +92,14 @@ We used synthetic data and filtered publicly available data to train our models.
 ├── sd3_medium.safetensors
 ├── sd3_medium_incl_clips.safetensors
 ├── sd3_medium_incl_clips_t5xxlfp8.safetensors
-└── ...
+└── sd3_medium_incl_clips_t5xxlfp16.safetensors
 
 ```
 
 We have prepared three packaging variants of the SD3 Medium model, each equipped with the same set of MMDiT & VAE weights, for user convenience.
 
 * `sd3_medium.safetensors`  includes the MMDiT and VAE weights but does not include any text encoders.
+* `sd3_medium_incl_clips_t5xxlfp16.safetensors` contains all necessary weights, including fp16 version of the T5XXL text encoder.
 * `sd3_medium_incl_clips_t5xxlfp8.safetensors` contains all necessary weights, including fp8 version of the T5XXL text encoder, offering a balance between quality and resource requirements.
 * `sd3_medium_incl_clips.safetensors` includes all necessary weights except for the T5XXL text encoder. It requires minimal resources, but the model's performance will differ without the T5XXL text encoder.
 * The `text_encoders` folder contains three text encoders and their original model card links for user convenience. All components within the text_encoders folder (and their equivalents embedded in other packings)  are subject to their respective original licenses.
