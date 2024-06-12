@@ -32,9 +32,9 @@
         "Node name for S&R": "TripleCLIPLoader"
       },
       "widgets_values": [
-        "clip_g_sdxl_base.safetensors",
-        "clip_l_sdxl_base.safetensors",
-        "t5xxl.safetensors"
+        "clip_g.safetensors",
+        "clip_l.safetensors",
+        "t5xxl_fp8_e4m3fn.safetensors"
       ]
     },
     {
