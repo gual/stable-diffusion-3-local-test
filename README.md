@@ -6,6 +6,7 @@ tags:
 - text-to-image
 - stable-diffusion
 - diffusers
+inference: false
 extra_gated_prompt: >-
   By clicking "Agree", you agree to the [License
   Agreement](https://huggingface.co/stabilityai/stable-diffusion-3-medium/blob/main/LICENSE)
