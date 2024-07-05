@@ -1,6 +1,6 @@
 ---
 license: other
-license_name: stabilityai-nc-research-community
+license_name: stabilityai-ai-community
 license_link: LICENSE
 tags:
 - text-to-image
