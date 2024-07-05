@@ -52,8 +52,8 @@ Please note: this model is released under the Stability Non-Commercial Research 
 
 ### License
 
-- **Non-commercial Use:** Stable Diffusion 3 Medium is released under the [Stability AI Non-Commercial Research Community License](https://huggingface.co/stabilityai/stable-diffusion-3-medium/blob/main/LICENSE). The model is free to use for non-commercial purposes such as academic research.
-- **Commercial Use**: This model is not available for commercial use without a separate commercial license from Stability. We encourage professional artists, designers, and creators to use our Creator License. Please visit https://stability.ai/license to learn more.
+- **Community License:** Free for research, non-commercial, and commercial use.  You only need a paid Enterprise license if your yearly revenues exceed USD$1M and you use Stability AI models in commercial products or services. Read more: https://stability.ai/license
+- **For companies above this revenue threshold**: please contact us: https://stability.ai/enterprise
 
 
 ### Model Sources
