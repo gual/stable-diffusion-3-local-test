@@ -1,7 +1,7 @@
 ---
 license: other
 license_name: stabilityai-ai-community
-license_link: LICENSE
+license_link: LICENSE.md
 tags:
 - text-to-image
 - stable-diffusion
