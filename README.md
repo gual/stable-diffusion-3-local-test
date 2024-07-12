@@ -52,7 +52,7 @@ Please note: this model is released under the Stability Community License. For E
 
 ### License
 
-- **Community License:** Free for research, non-commercial, and commercial use. You only need a paid Enterprise license if your yearly revenues exceed USD$1M and you use Stability AI models in commercial products or services. Read more: https://stability.ai/license
+- **Community License:** Free for research, non-commercial, and commercial use for organisations or individuals with less than $1M annual revenue. You only need a paid Enterprise license if your yearly revenues exceed USD$1M and you use Stability AI models in commercial products or services. Read more: https://stability.ai/license
 - **For companies above this revenue threshold**: please contact us: https://stability.ai/enterprise
 
 
