@@ -9,7 +9,7 @@ tags:
 inference: false
 extra_gated_prompt: >-
   By clicking "Agree", you agree to the [License
-  Agreement](https://huggingface.co/stabilityai/stable-diffusion-3-medium/blob/main/LICENSE)
+  Agreement](https://huggingface.co/stabilityai/stable-diffusion-3-medium/blob/main/LICENSE.md)
   and acknowledge Stability AI's [Privacy
   Policy](https://stability.ai/privacy-policy).
 extra_gated_fields:
@@ -38,7 +38,7 @@ pipeline_tag: text-to-image
 
 For more technical details, please refer to the [Research paper](https://stability.ai/news/stable-diffusion-3-research-paper).
 
-Please note: this model is released under the Stability Non-Commercial Research Community License. For a Creator License or an Enterprise License visit Stability.ai or [contact us](https://stability.ai/license) for commercial licensing details.
+Please note: this model is released under the Stability Community License. For Enterprise License visit Stability.ai or [contact us](https://stability.ai/enterprise) for commercial licensing details.
 
 
 
@@ -52,7 +52,7 @@ Please note: this model is released under the Stability Non-Commercial Research 
 
 ### License
 
-- **Community License:** Free for research, non-commercial, and commercial use.  You only need a paid Enterprise license if your yearly revenues exceed USD$1M and you use Stability AI models in commercial products or services. Read more: https://stability.ai/license
+- **Community License:** Free for research, non-commercial, and commercial use. You only need a paid Enterprise license if your yearly revenues exceed USD$1M and you use Stability AI models in commercial products or services. Read more: https://stability.ai/license
 - **For companies above this revenue threshold**: please contact us: https://stability.ai/enterprise
 
 
