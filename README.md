@@ -22,7 +22,7 @@ extra_gated_fields:
     options:
     - 'Yes'
     - 'No'
-  I acknowledge that this model is for non-commercial use only unless I acquire a separate license from Stability AI: checkbox
+  I agree to the License Agreement and acknowledge Stability AI's Privacy Policy: checkbox
 language:
 - en
 pipeline_tag: text-to-image
