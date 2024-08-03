@@ -7,7 +7,7 @@ pipe = StableDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-
 pipe.enable_model_cpu_offload()
 
 image = pipe(
-    prompt="a photo of a cat holding a sign that says azure sucks",
+    prompt="a photo of a cat holding a sign that says give me food",
     negative_prompt="",
     num_inference_steps=28,
     height=1024,
@@ -15,6 +15,4 @@ image = pipe(
     guidance_scale=7.0,
 ).images[0]
 
-image.save("sd3_cc.png")
-#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
-
+image.save("sd3_cat.png")
