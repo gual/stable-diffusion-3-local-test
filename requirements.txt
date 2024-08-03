@@ -1,0 +1,6 @@
+torch
+diffusers
+transformers
+sentencepiece
+protobuf
+accelerate
